@@ -1,0 +1,69 @@
+/*Responsiveness of the screen to different sizes. */
+@media only screen and (min-width: 300px) and (max-width: 767px){
+  body{
+    background-color: wheat;
+  }
+
+/*@media only screen and (min-width: 768px) and (max-width: 1023px){
+  body{background-color: orange;}
+}*/
+
+/*@media screen and (min-width: 720px){
+  body{background-color: red;}
+}*/
+  
+  body{
+    background-color: darkslategrey;
+  }
+  .grid{
+    display: grid;
+    row-gap: 7px;
+  }
+  .one{
+    background-color: darkslategrey;
+    //margin-bottom: 5px;
+    height: 100px;
+    display: flex;
+    column-gap: 25px;
+  }
+  .two{
+    background-color: darkslategrey;
+    height: 150px;
+    display: flex;
+    column-gap: 7px;
+  }
+  .onesub{
+    background-color: magenta;
+    width: 70%;
+  }
+  .twosub{
+    background-color: brown;
+    margin-left: 5px;
+    width: 30%;
+  }
+  .onesubb{
+    background-color: green;
+    width: 42%;
+    margin-right: 7px;
+  }
+  .twosubb{
+    background-color: darkslategrey;
+    width: 58%;
+    display: grid;
+    row-gap: 7px;
+  }
+  .subaone{
+    background-color: blue;
+    height: 70px;
+   
+  }
+  .subatwo{
+    background-color: blue;
+    height: 73px;
+  }
+  
+
+
+
+
+
